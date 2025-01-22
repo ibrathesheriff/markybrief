@@ -3,7 +3,7 @@ A lightweight Python tool for generating concise summaries of markdown files. Pe
 
 ## Features
 - 📝 Summarizes markdown files into brief, digestible insights.
-- ⚡ Fast and lightweight.
+- ⚡ Fast (lol) and lightweight.
 - 🔧 Easy to integrate into existing workflows.
 - 📂 Supports batch processing of multiple markdown files.
 
