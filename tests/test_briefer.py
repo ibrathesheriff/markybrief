@@ -29,7 +29,7 @@ def test_brief_parameters_2():
         output = brief.brief(PROJECT_PATH + "example_docs/example1.md", "pdf")
 
 def test_markdown_headings_1():
-    # check if the correct number of markdown heading is created
+    # check if the correct number of markdown headings are created (markdown input)
     brief = Briefer()
 
     output = brief.brief(PROJECT_PATH + "example_docs/example1.md")
@@ -37,7 +37,7 @@ def test_markdown_headings_1():
     assert output.count("#") == 25
 
 def test_markdown_headings_2():
-    # check if the correct number of markdown heading is created
+    # check if the correct number of markdown headings are created (HTML input)
     brief = Briefer()
 
     output = brief.brief(PROJECT_PATH + "example_docs/example3.html")
