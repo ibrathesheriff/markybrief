@@ -1,5 +1,10 @@
 # Development Information
 
+## Verify your SSH Key
+```shell
+ssh -T git@github.com
+```
+
 ## Running the test cases
 From the project directory run:
 ```shell
